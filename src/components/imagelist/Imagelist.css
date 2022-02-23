@@ -1,0 +1,11 @@
+.ImageList{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(25rem, 1fr));
+  grid-gap: 0.5px 10px;
+  grid-auto-rows: 10px;
+}
+
+.ImageList img{
+  width: 25rem ;
+  
+}
